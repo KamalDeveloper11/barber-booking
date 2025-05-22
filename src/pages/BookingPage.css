@@ -1,0 +1,53 @@
+/* ملف تنسيق بسيط بلغة CSS */
+
+.page-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .page-container input,
+  .page-container select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .page-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .page-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+  }
